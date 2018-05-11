@@ -1,5 +1,5 @@
 ---
-- hosts: exemple-1
+- hosts: webservers
   tasks:
     - name: Installs nginx web server
       package:
